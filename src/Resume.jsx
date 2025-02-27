@@ -6,8 +6,11 @@ export default function Resume() {
     <>
       <div className="border container">
         <Header />
-        <Section title="Education" />
-        <Section title="Work Experience" />
+
+        <div className="flex flex-col gap-16">
+          <Section title="Education" />
+          <Section title="Work Experience" />
+        </div>
       </div>
     </>
   );

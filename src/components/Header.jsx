@@ -33,7 +33,10 @@ export default function Header() {
     return (
       <>
         <div className="flex">
-          <button className="edit-btn" onClick={toggleEditing}>
+          <button
+            className="edit-btn ml-auto top-btn-margins"
+            onClick={toggleEditing}
+          >
             Exit
           </button>
         </div>
@@ -67,7 +70,10 @@ export default function Header() {
   return (
     <>
       <div className="flex">
-        <button className="edit-btn" onClick={toggleEditing}>
+        <button
+          className="edit-btn ml-auto top-btn-margins"
+          onClick={toggleEditing}
+        >
           Edit
         </button>
       </div>

@@ -30,6 +30,10 @@
   justify-content: space-around;
 }
 
+.content-center {
+  align-items: center;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -42,12 +46,19 @@
   margin-left: auto;
 }
 
+.mr-8 {
+  margin-right: 8px;
+}
+
 .border {
   border: 1px solid black;
+}
+
+.top-btn-margins {
+  margin: 8px 8px 0px auto;
 }
 
 .edit-btn {
   font-weight: bold;
   padding: 6px 18px;
-  margin: 8px 8px 0px auto;
 }
