@@ -1,16 +1,14 @@
 import Header from "./components/Header";
-import Section from "./components/Section";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 export default function Resume() {
   return (
     <>
-      <div className="border container">
+      <div className="border container resume-padding flex flex-col gap-16">
         <Header />
-
-        <div className="flex flex-col gap-16">
-          <Section title="Education" />
-          <Section title="Work Experience" />
-        </div>
+        <Education />
+        <Experience />
       </div>
     </>
   );
